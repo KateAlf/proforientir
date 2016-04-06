@@ -1,0 +1,16 @@
+.intro {
+  background: url("../../img/intro-bg-desktop1.jpg") no-repeat;
+  background-position: 50% 5%;
+  background-size: 100%;
+  min-height: 560px;
+  position: relative;
+  &__title {
+    font-size: 34px;
+    color: white;
+    width: 31%;
+    min-height: 150px;
+    text-align: center;
+    margin: 0 auto 40px auto;
+    padding-top: 200px;
+  }
+}
