@@ -1,1 +1,10 @@
-.needs-wrapper {}
+.needs-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 20px;
+  min-height: 500px;
+  border: 1px solid #000;
+}
