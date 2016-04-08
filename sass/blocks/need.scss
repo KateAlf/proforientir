@@ -1,5 +1,41 @@
 .need {
   width: 40%;
-  border: 1px solid #000;
   padding-left: 110px;
+  position: relative;
+  &::before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 5px;
+    display: block;
+    width: 81px;
+    height: 81px;
+    border-radius: 50%;
+    border: none;
+  }
+  &--money:before {
+    background: transparent url("../img/icons/icon-money.png") 0 0 no-repeat;
+    background-size: cover;
+  }
+  &--friends:before {
+    background: transparent url("../img/icons/icon-friends.png") 0 0 no-repeat;
+    background-size: cover;
+  }
+  &--contacts:before {
+    background: transparent url("../img/icons/icon-connections.png") 0 0 no-repeat;
+    background-size: cover;
+  }
+  &--promo:before {
+    background: transparent url("../img/icons/icon-promo.png") 0 0 no-repeat;
+    background-size: cover;
+  }
+  &__title {
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+  }
+  &__text {
+    font-size: 16px;
+    color: white;
+  }
 }

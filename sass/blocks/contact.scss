@@ -1,0 +1,23 @@
+.contact {
+  width: 30%;
+  &__text {
+    color: white;
+    font-size: 16px;
+  }
+  &--address {
+    text-align: left;
+    padding: 10px;
+  }
+  &--icons {
+    text-align: center;
+  }
+  &__link {
+    text-decoration: none;
+    color: white;
+    &:hover {
+      text-decoration: underline;
+      color: #30bae7;
+    }
+  }
+  
+}

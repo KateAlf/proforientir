@@ -1,1 +1,42 @@
-.form {}
+.form {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 80px;  
+  input {
+    outline: none;
+  }
+  input::placeholder {
+    color: white;
+  }
+  
+  &__name,
+  &__email,
+  &__emotions {
+    background-color: #273a71;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 20px;
+  }
+  &__name,
+  &__email {
+    min-height: 48px;
+    width: 47%;
+//    margin-right: 25px;
+    margin-bottom: 22px;
+  }
+  &__email {
+    margin-right: 0;
+  }
+  &__emotions {
+    width: 100%;
+    min-height: 167px;
+    resize: none;
+    margin-bottom: 48px;
+  }
+}

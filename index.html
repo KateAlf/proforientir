@@ -107,17 +107,6 @@
             <b class="member__title">Светлана Зайкина</b>
             <p class="member__subtitle">Мозг</p>
             <p class="member__info">Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, itaque, minus. Quae quam ipsa rem..</p>
-            <div class="member__links">
-              <a href="#" class="social-link">
-               FB 
-              </a>
-              <a href="#" class="social-link">
-                VK
-              </a>
-              <a href="#" class="social-link">
-                Email
-              </a>
-            </div>
           </div>
 
           <div class="member">
@@ -125,17 +114,7 @@
             <b class="member__title">Катерина Турапина</b>
             <p class="member__subtitle">Руки</p>
             <p class="member__info">Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, itaque, minus. Quae quam ipsa rem..</p>
-            <div class="member__links">
-              <a href="#" class="social-link">
-               FB 
-              </a>
-              <a href="#" class="social-link">
-                VK
-              </a>
-              <a href="#" class="social-link">
-                Email
-              </a>
-            </div>
+
           </div>
 
           <div class="member">
@@ -143,17 +122,7 @@
             <b class="member__title">Алия Беловолова</b>
             <p class="member__subtitle">Душа</p>
             <p class="member__info">Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, itaque, minus. Quae quam ipsa rem..</p>
-            <div class="member__links">
-              <a href="#" class="social-link">
-               FB 
-              </a>
-              <a href="#" class="social-link">
-                VK
-              </a>
-              <a href="#" class="social-link">
-                Email
-              </a>
-            </div>
+
           </div>
         </div>
       </div>
@@ -190,21 +159,21 @@
         <h2 class="page-section__title page-section__title--purple">Чего мы ищем?</h2>
         <p class="page-section__text">Нам нужна поддержка!</p>
         <div class="needs-wrapper">
-          <div class="need">
+          <div class="need need--money">
             <b class="need__title">Инвестиции</b>
-            <p class="need__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, praesentium.</p>
+            <p class="need__text">Инвестиции позволят нам выпустить первый тираж дневника, наладить взаимодействие с издательскими домами, а также привлечь дополнительных специалистов для доработки текущей версии дневника (например, художника и программиста) </p>
           </div>
-          <div class="need">
+          <div class="need need--promo">
             <b class="need__title">Продвижение</b>
-            <p class="need__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga error in quo, illum officia libero.</p>
+            <p class="need__text">Раскрутка любого проекта требует не столько больших вложений, но и продуманной кампании по его продвижению. Мы будем рады помощи специалистов в сфере мобильного маркетинга, т.к. основная часть нашей целевой аудитории находится в социальных сетях, а также любым советам по взаимодействию с книжными магазинами. </p>
           </div>
-          <div class="need">
+          <div class="need need--friends">
             <b class="need__title">Единомышленники</b>
-            <p class="need__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab neque excepturi enim sapiente quae.</p>
+            <p class="need__text">Дизайн дневника нуждается в творческой руке талантливого художника, которого мы рады пригласить в наш проект. Также мы не хотим останавливаться на достигнутом и ищем людей, желающих нам помочь развить проект. В планах - создание мобильного приложения для расширения функционала дневника и еще большей интерактивности. Если вы знаете основы мобильной разработки и хотите поучаствовать в проекте - пишите нам!</p>
           </div>
-          <div class="need">
+          <div class="need need--contacts">
             <b class="need__title">Полезные связи</b>
-            <p class="need__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim quos, voluptate numquam laborum natus officia.</p>
+            <p class="need__text">Мы - совсем юный старт-ап и активно ищем интересные контакты в сфере образования. Мы будем рады любым контактам неравнодушных к нашему проекту специалистов: учителей, психологов, родителей, издателей, инвесторов и т.д.</p>
           </div>
         </div>
       </div>
@@ -215,11 +184,9 @@
         <h2 class="page-section__title page-section__title--blue">Напишите нам</h2>
         <p class="page-section__text">Мы всегда рады новым идеям и предложениям!</p>
         <form action="post" class="form">
-          <label for="name" class="">
-            <input type="form__text" name="" id="name" placeholder="Введите свое имя">
-          </label>
-          <input type="form__email" name="" id="email" placeholder="Введите свой емайл">
-          <textarea class="form__emotions" id="emotions" cols="30" rows="10" placeholder="Поделитесь своими впечатлениями и идеями"></textarea>
+          <input class="form__name" type="text" id="name" placeholder="Вас зовут?*" required>
+          <input type="email" class="form__email" id="email" placeholder="Ваш емайл*" required>
+          <textarea class="form__emotions" id="emotions" cols="30" rows="10" placeholder="Поделитесь своими впечатлениями и идеями*" required></textarea>
           <button class="btn btn--send" type="submit">Отправить</button>
         </form>
       </div>
@@ -228,13 +195,47 @@
 
   <footer class="page-footer">
     <div class="page-wrapper clearfix">
-      <nav class="bottom-nav">
-        <ul class="bottom-nav__list">
-          <li class="bottom-nav__item"><a href="#" class="bottom-nav__link">Vkontakte</a></li>
-          <li class="bottom-nav__item"><a href="#" class="bottom-nav__link">Instagram</a></li>
-          <li class="bottom-nav__item"><a href="#" class="bottom-nav__link">EMail</a></li>
-        </ul>
-      </nav>
+      <div class="contacts-wrapper">
+        <div class="contact">
+          <img src="img/icons/logo.png" alt="Логотип частной школы Поколение" class="logo" width="218">
+        </div>
+        <div class="contact">
+          <p class="contact__text">Наш парнер:<span class="span-fix"> Частная школа “Поколение”</span></p>
+        </div>
+        <div class="contact contact--address">
+          <p class="contact__text">г. Волгоград, ул. Ткачева, 7<span class="span-fix">
+            <a href="http://generation-vlg.ru" class="contact__link" target="_blank">http://generation-vlg.ru </a>
+          </span></p>
+        </div>
+        <div class="contact contact--icons">
+          <a href="https://vk.com/generationuniver" class="icons" target="_blank">
+            <svg version="1.1" class="icon-vk" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 415 414.996" enable-background="new 0 0 415 414.996" xml:space="preserve">
+              <path d="M316.801,307.104c-0.558,0-1.102,0-1.66,0c-17.838-2.978-29.993-15.776-40.373-27.618
+	c-5.84-6.699-14.832-21.846-25.54-20.1c-15.205,2.49-7.647,28.877-14.003,40.188c-5.125,9.133-26.957,7.485-42.013,5.854
+	c-47.521-5.124-71.805-30.895-93.093-58.598c-22.758-29.607-40.474-60.588-56.852-94.604c-5.305-11.01-12.355-23.192-12.355-36.837
+	c7.703-6.372,20.272-4.182,32.957-4.182c10.753,0,27.547-2.405,35.419,1.676c4.682,2.405,9.406,15.247,13.187,23.437
+	c8.676,18.798,16.656,32.327,27.188,47.717c4.561,6.672,11.567,19.255,19.771,17.581c7.967-1.617,8.718-21.561,9.062-34.317
+	c0.399-14.487-0.016-32.498-4.116-40.187c-3.873-7.258-10.959-7.402-18.126-11.726c5.964-12.183,22.312-13.4,42.021-13.4
+	c16.556,0,39.677-1.861,46.133,9.22c6.573,11.282,2.063,31.626,1.647,46.873c-0.457,17.137-3.378,34.833,8.248,42.706
+	c8.934-0.986,13.743-9.835,18.939-16.75c11.367-15.133,18.396-28.232,27.187-47.717c3.608-8.004,7.474-21.775,14.003-24.281
+	c9.95-3.823,25.812-0.831,40.373-0.831c11.939,0,33.242-3.35,37.079,5.026c3.181,6.944-6.184,24.482-9.061,29.292
+	c-11.039,18.384-21.863,30.094-33.773,46.044c-4.769,6.385-14.603,16.593-14.017,26.801c0.444,7.744,8.104,13.687,14.017,19.257
+	c12.785,12.067,21.76,20.859,32.126,34.316c3.895,5.07,12.341,16.048,11.525,22.607C380.195,315.007,332.778,302.18,316.801,307.104
+	z" />
+            </svg>
+          </a>
+          <a href="#" class="icons">
+            <svg version="1.1" class="icon-mail" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 415 414.996" xml:space="preserve">
+              <path d="M321.548,165.366L210.82,88.71c-2.464-1.913-5.982-2.091-8.668-0.202L93.276,165.472c-2.084,1.287-3.473,3.592-3.473,6.221
+	v137.479c0,4.035,3.271,7.307,7.308,7.307h220.776c4.037,0,7.307-3.271,7.307-7.307V171.692
+	C325.194,168.99,323.728,166.631,321.548,165.366z M206.399,103.369l98.488,68.183l-88.674,58.68l-4.716-3.251
+	c-2.458-1.962-6.005-2.172-8.719-0.285l-4.708,3.278l-88.061-58.469L206.399,103.369z M104.419,185.296l80.784,53.639
+	l-80.784,56.252V185.296z M120.381,301.863l86.601-60.302l4.728,3.259c0.188,0.145,0.384,0.278,0.584,0.402l82.161,56.641H120.381z
+	 M310.581,295.286l-81.424-56.133l81.424-53.883V295.286z" />
+            </svg>
+          </a>
+        </div>
+      </div>
     </div>
   </footer>
 </body>
