@@ -27,3 +27,18 @@
     border-bottom: 3px solid #299ec5;
   }
 }
+
+.btn--intro:hover .intro__more {
+  display: block;
+}
+
+@media #{$mobile-width} {
+  .btn {
+    width: 50%;
+    min-height: 40px;
+    line-height: 40px;
+    &--intro {
+      margin-bottom: 0px;
+    }
+  }
+}

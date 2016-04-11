@@ -20,6 +20,32 @@
     color: #ffffff;
     text-align: center;
     display: block;
+  }
+}
 
+@media #{$mobile-width} {
+  .feature {
+    width: 95%;
+    &__icon {
+      height: 50px;
+    }
+    &__title {
+      min-height: 30px;
+      font-size: 16px;
+      margin-top: 20px;
+      margin-bottom: 5px;
+    }
+  }
+}
+
+@media #{$tablet-width} {
+  .feature {
+    width: 45%;
+    &__title {
+      font-size: 18px;
+      min-height: 20px;
+      margin-bottom: 5px;
+      margin-top: 20px;
+    }
   }
 }

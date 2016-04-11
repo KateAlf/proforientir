@@ -1,8 +1,7 @@
-.page-section {
+  .page-section {
   margin: 0;
   background-size: 100%;
   padding-top: 50px;
-
   &--green {
     background-color: #17c2a4;
     min-height: 550px;
@@ -58,6 +57,13 @@
       background-color: #e5c37f;
     }
   }
+  &__title--white {
+    color: #3c4761;
+    width: 50%;
+    &::after {
+      background-color: #dfe8ed;
+    }
+  }
   &__title--blue::after {
     background-color: #273a71;
   }
@@ -77,3 +83,28 @@
     }
   }
 }
+  @media #{$mobile-width} {
+    .page-section {
+      &__title {
+        width: 70%;
+        font-size: 20px;
+      }
+      &__text {
+        font-size: 16px;
+        width: 90%;
+      }
+    }
+  }
+
+@media #{$tablet-width} {
+    .page-section {
+      &__title {
+        width: 70%;
+        font-size: 18px;
+      }
+      &__text {
+        font-size: 16px;
+        width: 90%;
+      }
+    }
+  }

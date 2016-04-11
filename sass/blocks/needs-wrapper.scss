@@ -4,7 +4,11 @@
   justify-content: space-around;
   flex-wrap: wrap;
   align-items: flex-start;
-  margin-bottom: 20px;
   min-height: 450px;
- 
+}
+
+@media #{$mobile-width} {
+  .needs-wrapper {
+    flex-direction: column;
+  }
 }

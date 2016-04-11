@@ -10,7 +10,31 @@
     width: 31%;
     min-height: 150px;
     text-align: center;
-    margin: 0 auto 40px auto;
-    padding-top: 200px;
+    margin: 0 auto 20px auto;
+    padding-top: 250px;
   }
 }
+
+@media #{$mobile-width} {
+  .intro {
+    min-height: 100px;
+    background-size: cover;
+    &__title {
+      width: 80%;
+      font-size: 18px;
+      padding-top: 60px;
+      margin-bottom: 0px;
+      margin: 0 auto;
+    }
+  }
+}
+
+@media #{$tablet-width} {
+  .intro {
+    background-size: cover;
+    &__title {
+      padding-top: 200px;
+      width: 40%;
+      text-align: center;
+  }
+  }}

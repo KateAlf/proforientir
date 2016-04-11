@@ -25,6 +25,8 @@
 @import "blocks/needs-wrapper.scss";
 @import "blocks/screenshot-wrapper.scss";
 @import "blocks/contacts-wrapper.scss";
+@import "blocks/inshort-wrapper.scss";
+
 
 /* Modules - elements used many times */
 
@@ -34,11 +36,17 @@
 
 @import "blocks/page-section.scss";
 @import "blocks/top-nav.scss";
+@import "blocks/hamburger.scss";
 @import "blocks/intro.scss";
+@import "blocks/diary-screen.scss";
+@import "blocks/inshort.scss";
+
 @import "blocks/member.scss";
 @import "blocks/feature.scss";
 @import "blocks/screen.scss";
 @import "blocks/need.scss";
 @import "blocks/form.scss";
 @import "blocks/contact.scss";
+@import "blocks/logo.scss";
+
 @import "blocks/span-fix.scss";

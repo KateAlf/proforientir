@@ -7,7 +7,6 @@
   &__img {
     margin: 0 auto;
     border-radius: 50%;
-
   }
   &__title {
     display: block;
@@ -24,5 +23,26 @@
     color: #30bae7;
     text-align: center;
     display: block;
+  }
+}
+
+@media #{$mobile-width} {
+  .member {
+    width: 95%;
+    &__title {
+      font-size: 18px;
+      margin-top: 15px;
+      
+    }
+  }
+}
+@media #{$tablet-width} {
+  .member {
+    &__title {
+      font-size: 18px;
+    }
+    &__img {
+      width: 70%;
+    }
   }
 }

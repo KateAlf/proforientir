@@ -1,0 +1,24 @@
+.inshort {
+  &__text {
+    width: 70%;
+    color: #3c4761;
+    font-size: 20px;
+    margin: 0;
+    text-align: left;
+  }
+}
+
+.inshort__text span {
+  display: block;
+  margin-top: 25px;
+}
+
+@media #{$tablet-width} {
+  .inshort__text {
+    width: 65%;
+    font-size: 16px;
+    & span {
+      margin-top: 15px;
+    }
+  }
+}

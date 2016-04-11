@@ -3,5 +3,10 @@
   min-height: 50px;
   background-color: #344b8e;
   width: 100%;
+}
 
+@media #{$mobile-width} {
+  .page-header {
+    background-color: #273a71;
+  }
 }

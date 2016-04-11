@@ -19,5 +19,26 @@
       color: #30bae7;
     }
   }
-  
 }
+
+@media #{$mobile-width} {
+  .contact {
+    width: 95%;
+    margin: 0 auto;
+    &__text {
+      text-align: center;
+    }
+  }
+}
+
+@media #{$tablet-width} {
+  .contact {
+    width: 95%;
+    margin: 0 auto;
+    &__text {
+      text-align: center;
+      font-size: 14px;
+    }
+  }
+}
+

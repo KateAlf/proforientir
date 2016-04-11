@@ -4,3 +4,16 @@
   justify-content: space-around;
   align-items: stretch;
 }
+
+@media #{$mobile-width} {
+  .features-wrapper {
+    flex-direction: column;
+  }
+}
+
+@media #{$tablet-width} {
+  .features-wrapper {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}

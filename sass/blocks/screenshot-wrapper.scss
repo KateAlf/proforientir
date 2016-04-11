@@ -7,3 +7,10 @@
   margin-bottom: 20px;
   min-height: 500px;
 }
+
+@media #{$mobile-width} {
+  .screenshot-wrapper {
+    flex-direction: column;
+  }
+  
+}
